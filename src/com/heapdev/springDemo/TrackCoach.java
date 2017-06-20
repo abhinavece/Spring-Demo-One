@@ -20,5 +20,4 @@ public class TrackCoach implements Coach {
 	public String getDailyFortune() {
 		return "TrackCoach: "+fortuneService.getFortune();
 	}
-
 }
